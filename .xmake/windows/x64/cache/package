@@ -1,0 +1,191 @@
+{
+    glfw = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glfw\3.4\fc47358da159466996f7d289b4cf1b4e]],
+        linkdirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glfw\3.4\fc47358da159466996f7d289b4cf1b4e\lib]],
+        __requirestr = "glfw",
+        libfiles = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glfw\3.4\fc47358da159466996f7d289b4cf1b4e\lib\glfw3.lib]],
+        static = true,
+        __enabled = true,
+        sysincludedirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glfw\3.4\fc47358da159466996f7d289b4cf1b4e\include]],
+        defines = "GLFW_INCLUDE_NONE",
+        license = "zlib",
+        version = "3.4",
+        syslinks = {
+            "user32",
+            "shell32",
+            "gdi32"
+        },
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glfw\3.4\fc47358da159466996f7d289b4cf1b4e\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\o\opengl\latest\b1caf5aecf3447d1bfaf66081135de32\bin]]
+            }
+        },
+        links = {
+            "glfw3",
+            "opengl32"
+        }
+    },
+    eigen = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\e\eigen\3.4.0\1af8f25c61b04e19afd2699bba8d04c0]],
+        license = "MPL-2.0",
+        __requirestr = "eigen",
+        sysincludedirs = {
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\e\eigen\3.4.0\1af8f25c61b04e19afd2699bba8d04c0\include]],
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\e\eigen\3.4.0\1af8f25c61b04e19afd2699bba8d04c0\include\eigen3]]
+        },
+        version = "3.4.0",
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\e\eigen\3.4.0\1af8f25c61b04e19afd2699bba8d04c0\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin]]
+            }
+        },
+        __enabled = true
+    },
+    glm = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glm\1.0.1\788496219b2d40629f92bac6907b6bba]],
+        license = "MIT",
+        __requirestr = "glm",
+        sysincludedirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glm\1.0.1\788496219b2d40629f92bac6907b6bba\include]],
+        version = "1.0.1",
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glm\1.0.1\788496219b2d40629f92bac6907b6bba\bin]]
+            }
+        },
+        __enabled = true
+    },
+    spdlog = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\s\spdlog\v1.14.1\330a050c2ccf4f5cb40e2830b42cfbb2]],
+        license = "MIT",
+        __requirestr = "spdlog",
+        sysincludedirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\s\spdlog\v1.14.1\330a050c2ccf4f5cb40e2830b42cfbb2\include]],
+        version = "v1.14.1",
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\s\spdlog\v1.14.1\330a050c2ccf4f5cb40e2830b42cfbb2\bin]]
+            }
+        },
+        __enabled = true
+    },
+    fmt = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\f\fmt\11.0.2\8348c705561f484fb7f5546c2f0719b0]],
+        license = "MIT",
+        __requirestr = "fmt",
+        libfiles = [[C:\Users\wangzx\AppData\Local\.xmake\packages\f\fmt\11.0.2\8348c705561f484fb7f5546c2f0719b0\lib\fmt.lib]],
+        static = true,
+        cxxflags = "/utf-8",
+        __enabled = true,
+        sysincludedirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\f\fmt\11.0.2\8348c705561f484fb7f5546c2f0719b0\include]],
+        version = "11.0.2",
+        linkdirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\f\fmt\11.0.2\8348c705561f484fb7f5546c2f0719b0\lib]],
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\f\fmt\11.0.2\8348c705561f484fb7f5546c2f0719b0\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin]]
+            }
+        },
+        links = "fmt"
+    },
+    stb = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\s\stb\2024.06.01\50b5205a30f145adb70e146a5d0967dc]],
+        version = "2024.06.01",
+        __requirestr = "stb",
+        sysincludedirs = {
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\s\stb\2024.06.01\50b5205a30f145adb70e146a5d0967dc\include]],
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\s\stb\2024.06.01\50b5205a30f145adb70e146a5d0967dc\include\stb]]
+        },
+        __enabled = true,
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\s\stb\2024.06.01\50b5205a30f145adb70e146a5d0967dc\bin]]
+            }
+        }
+    },
+    tinyobjloader = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\a68bef1a131243d2bbe2abb4a3d7f30f]],
+        linkdirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\a68bef1a131243d2bbe2abb4a3d7f30f\lib]],
+        __requirestr = "tinyobjloader",
+        libfiles = [[C:\Users\wangzx\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\a68bef1a131243d2bbe2abb4a3d7f30f\lib\tinyobjloader.lib]],
+        static = true,
+        __enabled = true,
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\a68bef1a131243d2bbe2abb4a3d7f30f\bin]]
+            }
+        },
+        version = "v2.0.0rc13",
+        license = "MIT",
+        sysincludedirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\a68bef1a131243d2bbe2abb4a3d7f30f\include]],
+        links = "tinyobjloader"
+    },
+    imgui = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b]],
+        license = "MIT",
+        __requirestr = "imgui",
+        libfiles = [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\lib\imgui.lib]],
+        static = true,
+        __enabled = true,
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\bin]]
+            }
+        },
+        version = "v1.91.1",
+        linkdirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\lib]],
+        syslinks = "imm32",
+        sysincludedirs = {
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\include]],
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\include\imgui]],
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\include\backends]],
+            [[C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\include\misc\cpp]]
+        },
+        links = "imgui"
+    },
+    glad = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glad\v0.1.36\b918abab79c04749ba8b220ab08bfbb8]],
+        linkdirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glad\v0.1.36\b918abab79c04749ba8b220ab08bfbb8\lib]],
+        __requirestr = "glad",
+        libfiles = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glad\v0.1.36\b918abab79c04749ba8b220ab08bfbb8\lib\glad.lib]],
+        static = true,
+        __enabled = true,
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glad\v0.1.36\b918abab79c04749ba8b220ab08bfbb8\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\p\python\3.12.3\85f819da229741dbbcdf3ec9b85b6997\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\p\python\3.12.3\85f819da229741dbbcdf3ec9b85b6997\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\p\python\3.12.3\85f819da229741dbbcdf3ec9b85b6997\Scripts]]
+            },
+            PYTHONPATH = {
+                [[C:\Users\runneradmin\AppData\Local\.xmake\packages\p\python\3.12.3\85f819da229741dbbcdf3ec9b85b6997\Lib\site-packages]]
+            }
+        },
+        version = "v0.1.36",
+        license = "MIT",
+        sysincludedirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\g\glad\v0.1.36\b918abab79c04749ba8b220ab08bfbb8\include]],
+        links = "glad"
+    },
+    ["yaml-cpp"] = {
+        installdir = [[C:\Users\wangzx\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c1fabc4bf4834e7abbb6915ea65d80d7]],
+        license = "MIT",
+        __requirestr = "yaml-cpp",
+        libfiles = [[C:\Users\wangzx\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c1fabc4bf4834e7abbb6915ea65d80d7\lib\yaml-cpp.lib]],
+        static = true,
+        __enabled = true,
+        defines = "YAML_CPP_STATIC_DEFINE",
+        sysincludedirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c1fabc4bf4834e7abbb6915ea65d80d7\include]],
+        version = "0.8.0",
+        linkdirs = [[C:\Users\wangzx\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c1fabc4bf4834e7abbb6915ea65d80d7\lib]],
+        envs = {
+            PATH = {
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c1fabc4bf4834e7abbb6915ea65d80d7\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c1fabc4bf4834e7abbb6915ea65d80d7\bin]],
+                [[C:\Users\wangzx\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin]]
+            }
+        },
+        links = "yaml-cpp"
+    }
+}

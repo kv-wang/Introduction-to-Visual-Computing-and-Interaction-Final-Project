@@ -1,0 +1,43 @@
+{
+    files = {
+        [[build\.objs\final-project\windows\x64\release\src\VCX\Labs\FinalProject\App.cpp.obj]],
+        [[build\.objs\final-project\windows\x64\release\src\VCX\Labs\FinalProject\CasePathTracing.cpp.obj]],
+        [[build\.objs\final-project\windows\x64\release\src\VCX\Labs\FinalProject\Content.cpp.obj]],
+        [[build\.objs\final-project\windows\x64\release\src\VCX\Labs\FinalProject\main.cpp.obj]],
+        [[build\.objs\final-project\windows\x64\release\src\VCX\Labs\FinalProject\SceneObject.cpp.obj]],
+        [[build\.objs\final-project\windows\x64\release\src\VCX\Labs\FinalProject\tasks.cpp.obj]],
+        [[build\windows\x64\release\engine.lib]],
+        [[build\windows\x64\release\lab-common.lib]]
+    },
+    values = {
+        [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\link.exe]],
+        {
+            "-nologo",
+            "-dynamicbase",
+            "-nxcompat",
+            "-machine:x64",
+            [[-libpath:build\windows\x64\release]],
+            [[-libpath:C:\Users\wangzx\AppData\Local\.xmake\packages\g\glad\v0.1.36\b918abab79c04749ba8b220ab08bfbb8\lib]],
+            [[-libpath:C:\Users\wangzx\AppData\Local\.xmake\packages\g\glfw\3.4\fc47358da159466996f7d289b4cf1b4e\lib]],
+            [[-libpath:C:\Users\wangzx\AppData\Local\.xmake\packages\i\imgui\v1.91.1\679b3d982f6c4618856026b5e621200b\lib]],
+            [[-libpath:C:\Users\wangzx\AppData\Local\.xmake\packages\f\fmt\11.0.2\8348c705561f484fb7f5546c2f0719b0\lib]],
+            [[-libpath:C:\Users\wangzx\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\a68bef1a131243d2bbe2abb4a3d7f30f\lib]],
+            [[-libpath:C:\Users\wangzx\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c1fabc4bf4834e7abbb6915ea65d80d7\lib]],
+            "/opt:ref",
+            "/opt:icf",
+            "lab-common.lib",
+            "engine.lib",
+            "glad.lib",
+            "glfw3.lib",
+            "opengl32.lib",
+            "imgui.lib",
+            "fmt.lib",
+            "tinyobjloader.lib",
+            "yaml-cpp.lib",
+            "user32.lib",
+            "shell32.lib",
+            "gdi32.lib",
+            "imm32.lib"
+        }
+    }
+}
